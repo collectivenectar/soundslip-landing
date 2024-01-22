@@ -1,0 +1,59 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Silkscreen&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+        <div id="keyboard-brand" onclick="changePage(4)">SoundSlip</div>
+        <ul class="menu-bar">
+            <li>
+                <a onclick="changePage(0)">personal</a>
+            </li>
+            <li>
+                <a onclick="changePage(1)">flexible</a>
+            </li>
+            <li>
+                <a onclick="changePage(2)">secure</a>
+            </li>
+            <li>
+                <a onclick="changePage(3)">web3</a>
+            </li>
+        </ul> 
+    </nav>
+    <section id="main">
+        <div id="display-panel">
+            <div id="glass"></div>
+            <div id="hero">
+                <ul id="hero-text-cont">
+                    <li class="hero-letter blink">&gt;</li>
+                    <li class="hero-letter">F</li>
+                    <li class="hero-letter">I</li>
+                    <li class="hero-letter">N</li>
+                    <li class="hero-letter">D</li>
+                    <li class="hero-letter"> </li>
+                    <li class="hero-letter">Y</li>
+                    <li class="hero-letter">O</li>
+                    <li class="hero-letter">U</li>
+                    <li class="hero-letter">R</li>
+                    <li class="hero-letter"> </li>
+                    <li class="hero-letter">S</li>
+                    <li class="hero-letter">O</li>
+                    <li class="hero-letter">U</li>
+                    <li class="hero-letter">N</li>
+                    <li class="hero-letter">D</li>
+                </ul>
+            </div>
+            <p id="paragraph-text"> 
+                Share links to individual samples, a sample pack, or your entire library.</p>
+            <a class="soundslip-link" onclick="directToApp()">try me</a>
+        </div>
+    </section>
+	<script src="index.js"></script>
+  </body>
+</html>
